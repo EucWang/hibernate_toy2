@@ -1,0 +1,827 @@
+2017-01-15 21:10:57  [ main:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-01-15 21:10:57  [ main:35 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:10:57  [ main:35 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:10:57  [ main:36 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:10:57  [ main:37 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@567d299b
+2017-01-15 21:10:57  [ main:39 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@6c629d6e
+2017-01-15 21:10:57  [ main:40 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@27abe2cd
+2017-01-15 21:10:57  [ main:43 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:10:57  [ main:43 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:10:57  [ main:44 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:10:58  [ main:45 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:10:58  [ main:46 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:10:58  [ main:46 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:10:58  [ main:48 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:10:58  [ main:49 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:10:58  [ main:49 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:10:58  [ main:53 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:10:58  [ main:53 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:10:58  [ main:54 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:10:58  [ main:55 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:10:58  [ main:56 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:10:58  [ main:56 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:10:58  [ main:58 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:10:58  [ main:59 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:10:58  [ main:59 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:10:58  [ main:60 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:10:58  [ main:61 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:10:58  [ main:61 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:10:58  [ main:65 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3930015a
+2017-01-15 21:10:58  [ main:68 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3930015a
+2017-01-15 21:10:58  [ main:73 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@224aed64
+2017-01-15 21:10:58  [ main:74 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@224aed64
+2017-01-15 21:10:58  [ main:75 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@1c53fd30
+2017-01-15 21:10:58  [ main:75 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@1c53fd30
+2017-01-15 21:10:58  [ main:76 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@f5f2bb7
+2017-01-15 21:10:58  [ main:77 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@21a06946
+2017-01-15 21:10:58  [ main:79 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@71f2a7d5
+2017-01-15 21:10:58  [ main:79 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@71f2a7d5
+2017-01-15 21:10:58  [ main:82 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@61a52fbd
+2017-01-15 21:10:58  [ main:82 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@61a52fbd
+2017-01-15 21:10:58  [ main:84 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@47fd17e3
+2017-01-15 21:10:58  [ main:84 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@47fd17e3
+2017-01-15 21:10:58  [ main:103 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:10:58  [ main:104 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:10:58  [ main:104 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:10:58  [ main:106 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3ab39c39
+2017-01-15 21:10:58  [ main:108 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:10:58  [ main:108 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:10:58  [ main:108 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:10:58  [ main:109 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6833ce2c
+2017-01-15 21:10:58  [ main:111 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@35851384
+2017-01-15 21:10:58  [ main:111 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@35851384
+2017-01-15 21:10:58  [ main:112 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@256216b3
+2017-01-15 21:10:58  [ main:112 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@256216b3
+2017-01-15 21:10:58  [ main:114 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@4ec6a292
+2017-01-15 21:10:58  [ main:114 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4ec6a292
+2017-01-15 21:10:58  [ main:115 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@5a01ccaa
+2017-01-15 21:10:58  [ main:115 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5a01ccaa
+2017-01-15 21:10:58  [ main:117 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@66d33a
+2017-01-15 21:10:58  [ main:117 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@66d33a
+2017-01-15 21:10:58  [ main:131 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6debcae2
+2017-01-15 21:10:58  [ main:136 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@75bd9247
+2017-01-15 21:10:58  [ main:149 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:10:58  [ main:168 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:10:58  [ main:169 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:10:58  [ main:171 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:10:58  [ main:176 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:10:58  [ main:177 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:10:58  [ main:179 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@6b71769e
+2017-01-15 21:10:58  [ main:181 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:10:58  [ main:182 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:10:58  [ main:184 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:10:58  [ main:186 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:10:58  [ main:189 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:10:58  [ main:190 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:10:58  [ main:202 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@5594a1b5
+2017-01-15 21:10:58  [ main:204 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@7a79be86
+2017-01-15 21:10:58  [ main:208 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@3796751b
+2017-01-15 21:10:58  [ main:211 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3796751b
+2017-01-15 21:10:58  [ main:212 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6442b0a6
+2017-01-15 21:10:58  [ main:219 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@6b2fad11
+2017-01-15 21:10:58  [ main:220 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6b2fad11
+2017-01-15 21:10:58  [ main:228 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@5315b42e
+2017-01-15 21:10:58  [ main:228 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5315b42e
+2017-01-15 21:10:58  [ main:230 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1e67b872
+2017-01-15 21:10:58  [ main:231 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4cb2c100
+2017-01-15 21:10:58  [ main:234 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@68837a77
+2017-01-15 21:10:58  [ main:238 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@2d3fcdbd
+2017-01-15 21:10:58  [ main:238 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2d3fcdbd
+2017-01-15 21:10:58  [ main:240 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@67b6d4ae
+2017-01-15 21:10:58  [ main:240 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@34b7bfc0
+2017-01-15 21:10:58  [ main:240 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@366e2eef
+2017-01-15 21:10:58  [ main:241 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6df97b55
+2017-01-15 21:10:58  [ main:242 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3cbbc1e0
+2017-01-15 21:10:58  [ main:242 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@35fb3008
+2017-01-15 21:10:58  [ main:242 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7225790e
+2017-01-15 21:10:58  [ main:243 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@54a097cc
+2017-01-15 21:10:58  [ main:291 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-01-15 21:10:58  [ main:303 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2017-01-15 21:10:58  [ main:306 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2017-01-15 21:10:58  [ main:308 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2017-01-15 21:10:58  [ main:329 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-01-15 21:10:58  [ main:330 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-01-15 21:10:58  [ main:333 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-01-15 21:10:58  [ main:334 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-01-15 21:10:58  [ main:335 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2017-01-15 21:10:58  [ main:336 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-01-15 21:10:58  [ main:342 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-01-15 21:10:58  [ main:344 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-01-15 21:10:58  [ main:350 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2017-01-15 21:10:58  [ main:354 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-01-15 21:10:58  [ main:355 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-01-15 21:10:58  [ main:355 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-01-15 21:10:58  [ main:356 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-01-15 21:10:58  [ main:358 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-01-15 21:10:58  [ main:361 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-01-15 21:10:58  [ main:363 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-01-15 21:10:58  [ main:364 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-01-15 21:10:58  [ main:483 ] - [ DEBUG ]  Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2017-01-15 21:10:58  [ main:485 ] - [ DEBUG ]  Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:10:58  [ main:489 ] - [ DEBUG ]  Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2017-01-15 21:10:58  [ main:527 ] - [ DEBUG ]  hibernate.dialect=org.hibernate.dialect.MySQLDialect
+2017-01-15 21:10:58  [ main:528 ] - [ DEBUG ]  hibernate.connection.driver_class=com.mysql.jdbc.Driver
+2017-01-15 21:10:58  [ main:528 ] - [ DEBUG ]  hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo
+2017-01-15 21:10:58  [ main:528 ] - [ DEBUG ]  hibernate.connection.password=root
+2017-01-15 21:10:58  [ main:529 ] - [ DEBUG ]  hibernate.connection.username=root
+2017-01-15 21:10:58  [ main:529 ] - [ DEBUG ]  hibernate.connection.useUnicode=true
+2017-01-15 21:10:58  [ main:529 ] - [ DEBUG ]  connection.characterEncoding=UTF-8
+2017-01-15 21:10:58  [ main:529 ] - [ DEBUG ]  show_sql=true
+2017-01-15 21:10:58  [ main:530 ] - [ DEBUG ]  hbm2ddl.auto=update
+2017-01-15 21:10:58  [ main:530 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Classroom.hbm.xml] for mapping
+2017-01-15 21:10:58  [ main:530 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Classroom.hbm.xml
+2017-01-15 21:10:58  [ main:588 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:10:58  [ main:588 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:10:58  [ main:588 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:10:58  [ main:589 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:10:58  [ main:646 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Special.hbm.xml] for mapping
+2017-01-15 21:10:58  [ main:650 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Special.hbm.xml
+2017-01-15 21:10:58  [ main:653 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:10:58  [ main:654 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:10:58  [ main:655 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:10:58  [ main:656 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:10:58  [ main:696 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Student.hbm.xml] for mapping
+2017-01-15 21:10:58  [ main:709 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Student.hbm.xml
+2017-01-15 21:10:58  [ main:711 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:10:58  [ main:718 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:10:58  [ main:718 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:10:58  [ main:719 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:10:58  [ main:754 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2017-01-15 21:10:58  [ main:756 ] - [ DEBUG ]  Properties: {hibernate.connection.password=root, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/amd64, java.vm.version=25.91-b14, hibernate.connection.username=root, hibernate.connection.useUnicode=true, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/wangxn/workspace/jee_workspace/hibernate_toy2, java.runtime.version=1.8.0_91-b14, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.connection.characterEncoding=UTF-8, sun.jnu.encoding=UTF-8, java.library.path=:/opt/Qt5.7.0/5.7/gcc_64/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, connection.characterEncoding=UTF-8, os.version=4.4.0-59-generic, user.home=/home/wangxn, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=wangxn, java.class.path=/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/test-classes:/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/classes:/home/wangxn/.m2/repository/org/hibernate/hibernate-core/4.2.0.Final/hibernate-core-4.2.0.Final.jar:/home/wangxn/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/wangxn/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/wangxn/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/wangxn/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/wangxn/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/wangxn/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/wangxn/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar:/home/wangxn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/wangxn/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/home/wangxn/.m2/repository/junit/junit/4.7/junit-4.7.jar:/opt/eclipse/configuration/org.eclipse.osgi/388/0/.cp/:/opt/eclipse/configuration/org.eclipse.osgi/387/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 44847 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames cn.wxn.demo.test.Test, java.home=/usr/lib/jvm/jdk1.8.0_91/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_91, java.ext.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_91/jre/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+2017-01-15 21:10:58  [ main:786 ] - [ DEBUG ]  Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-01-15 21:10:58  [ main:845 ] - [ DEBUG ]  Preparing to build session factory with filters : {}
+2017-01-15 21:10:58  [ main:899 ] - [ DEBUG ]  Processing hbm.xml files
+2017-01-15 21:10:58  [ main:944 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Classroom -> t_classroom
+2017-01-15 21:10:58  [ main:951 ] - [ DEBUG ]  Mapped property: cid -> cid
+2017-01-15 21:10:58  [ main:956 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:10:58  [ main:959 ] - [ DEBUG ]  Mapped property: grade -> grade
+2017-01-15 21:10:58  [ main:966 ] - [ DEBUG ]  Mapped property: students
+2017-01-15 21:10:58  [ main:971 ] - [ DEBUG ]  Mapped property: special -> special_id
+2017-01-15 21:10:58  [ main:972 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Special -> t_special
+2017-01-15 21:10:58  [ main:974 ] - [ DEBUG ]  Mapped property: sid -> sid
+2017-01-15 21:10:58  [ main:974 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:10:58  [ main:975 ] - [ DEBUG ]  Mapped property: type -> type
+2017-01-15 21:10:58  [ main:975 ] - [ DEBUG ]  Mapped property: classrooms
+2017-01-15 21:10:58  [ main:975 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Student -> t_student
+2017-01-15 21:10:58  [ main:975 ] - [ DEBUG ]  Mapped property: id -> student_id
+2017-01-15 21:10:58  [ main:976 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:10:58  [ main:977 ] - [ DEBUG ]  Mapped property: gender -> gender
+2017-01-15 21:10:58  [ main:977 ] - [ DEBUG ]  Mapped property: classroom -> classroom_id
+2017-01-15 21:10:58  [ main:978 ] - [ DEBUG ]  Process annotated classes
+2017-01-15 21:10:58  [ main:979 ] - [ DEBUG ]  Processing fk mappings (*ToOne and JoinedSubclass)
+2017-01-15 21:10:58  [ main:980 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:10:58  [ main:980 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:10:58  [ main:981 ] - [ DEBUG ]  Processing collection mappings
+2017-01-15 21:10:58  [ main:983 ] - [ DEBUG ]  Second pass for collection: cn.wxn.demo.entity.Classroom.students
+2017-01-15 21:10:58  [ main:983 ] - [ DEBUG ]  Mapping collection: cn.wxn.demo.entity.Classroom.students -> t_student
+2017-01-15 21:10:58  [ main:987 ] - [ DEBUG ]  Mapped collection key: classroom_id, one-to-many: cn.wxn.demo.entity.Student
+2017-01-15 21:10:58  [ main:988 ] - [ DEBUG ]  Second pass for collection: cn.wxn.demo.entity.Special.classrooms
+2017-01-15 21:10:58  [ main:989 ] - [ DEBUG ]  Mapping collection: cn.wxn.demo.entity.Special.classrooms -> t_classroom
+2017-01-15 21:10:58  [ main:989 ] - [ DEBUG ]  Mapped collection key: special_id, one-to-many: cn.wxn.demo.entity.Classroom
+2017-01-15 21:10:58  [ main:989 ] - [ DEBUG ]  Processing native query and ResultSetMapping mappings
+2017-01-15 21:10:58  [ main:990 ] - [ DEBUG ]  Processing association property references
+2017-01-15 21:10:58  [ main:990 ] - [ DEBUG ]  Creating tables' unique integer identifiers
+2017-01-15 21:10:58  [ main:990 ] - [ DEBUG ]  Processing foreign key constraints
+2017-01-15 21:10:58  [ main:991 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Special
+2017-01-15 21:10:58  [ main:1000 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Classroom
+2017-01-15 21:10:58  [ main:1024 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-01-15 21:10:58  [ main:1030 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2017-01-15 21:10:58  [ main:1030 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2017-01-15 21:10:58  [ main:1031 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_demo]
+2017-01-15 21:10:58  [ main:1031 ] - [ INFO ]  HHH000046: Connection properties: {useUnicode=true, user=root, password=root, characterEncoding=UTF-8}
+2017-01-15 21:10:59  [ main:1124 ] - [ DEBUG ]  Opening new JDBC connection
+2017-01-15 21:10:59  [ main:1611 ] - [ DEBUG ]  Created connection to: jdbc:mysql://localhost:3306/hibernate_demo, Isolation Level: 4
+2017-01-15 21:10:59  [ main:1611 ] - [ DEBUG ]  Database ->
+       name : MySQL
+    version : 5.7.16-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+2017-01-15 21:10:59  [ main:1612 ] - [ DEBUG ]  Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+2017-01-15 21:10:59  [ main:1612 ] - [ DEBUG ]  JDBC version : 3.0
+2017-01-15 21:10:59  [ main:1644 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-01-15 21:10:59  [ main:1664 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-01-15 21:10:59  [ main:1689 ] - [ DEBUG ]  Automatic flush during beforeCompletion(): disabled
+2017-01-15 21:10:59  [ main:1690 ] - [ DEBUG ]  Automatic session close at end of transaction: disabled
+2017-01-15 21:10:59  [ main:1690 ] - [ DEBUG ]  JDBC batch size: 15
+2017-01-15 21:10:59  [ main:1690 ] - [ DEBUG ]  JDBC batch updates for versioned data: disabled
+2017-01-15 21:10:59  [ main:1690 ] - [ DEBUG ]  Scrollable result sets: enabled
+2017-01-15 21:10:59  [ main:1691 ] - [ DEBUG ]  Wrap result sets: disabled
+2017-01-15 21:10:59  [ main:1691 ] - [ DEBUG ]  JDBC3 getGeneratedKeys(): enabled
+2017-01-15 21:10:59  [ main:1691 ] - [ DEBUG ]  multi-tenancy strategy : NONE
+2017-01-15 21:10:59  [ main:1691 ] - [ DEBUG ]  Connection release mode: auto
+2017-01-15 21:10:59  [ main:1691 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-01-15 21:10:59  [ main:1695 ] - [ DEBUG ]  Using BatchFetchStyle : LEGACY
+2017-01-15 21:10:59  [ main:1696 ] - [ DEBUG ]  Maximum outer join fetch depth: 2
+2017-01-15 21:10:59  [ main:1696 ] - [ DEBUG ]  Default batch fetch size: 1
+2017-01-15 21:10:59  [ main:1696 ] - [ DEBUG ]  Generate SQL with comments: disabled
+2017-01-15 21:10:59  [ main:1696 ] - [ DEBUG ]  Order SQL updates by primary key: disabled
+2017-01-15 21:10:59  [ main:1697 ] - [ DEBUG ]  Order SQL inserts for batching: disabled
+2017-01-15 21:10:59  [ main:1697 ] - [ DEBUG ]  Default null ordering: none
+2017-01-15 21:10:59  [ main:1698 ] - [ DEBUG ]  Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2017-01-15 21:10:59  [ main:1700 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2017-01-15 21:10:59  [ main:1700 ] - [ DEBUG ]  Query language substitutions: {}
+2017-01-15 21:10:59  [ main:1700 ] - [ DEBUG ]  JPA-QL strict compliance: disabled
+2017-01-15 21:10:59  [ main:1701 ] - [ DEBUG ]  Second-level cache: enabled
+2017-01-15 21:10:59  [ main:1701 ] - [ DEBUG ]  Query cache: disabled
+2017-01-15 21:10:59  [ main:1701 ] - [ DEBUG ]  Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2017-01-15 21:10:59  [ main:1702 ] - [ DEBUG ]  org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2017-01-15 21:10:59  [ main:1702 ] - [ DEBUG ]  Optimize cache for minimal puts: disabled
+2017-01-15 21:10:59  [ main:1706 ] - [ DEBUG ]  Structured second-level cache entries: disabled
+2017-01-15 21:10:59  [ main:1710 ] - [ DEBUG ]  Second-level cache direct-reference entries: disabled
+2017-01-15 21:10:59  [ main:1710 ] - [ DEBUG ]  Statistics: disabled
+2017-01-15 21:10:59  [ main:1710 ] - [ DEBUG ]  Deleted entity synthetic identifier rollback: disabled
+2017-01-15 21:10:59  [ main:1711 ] - [ DEBUG ]  Default entity-mode: pojo
+2017-01-15 21:10:59  [ main:1711 ] - [ DEBUG ]  Named query checking : enabled
+2017-01-15 21:10:59  [ main:1711 ] - [ DEBUG ]  Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2017-01-15 21:10:59  [ main:1711 ] - [ DEBUG ]  Allow initialization of lazy state outside session : : disabled
+2017-01-15 21:10:59  [ main:1711 ] - [ DEBUG ]  JTA Track by Thread: enabled
+2017-01-15 21:10:59  [ main:1722 ] - [ DEBUG ]  Building session factory
+2017-01-15 21:10:59  [ main:1733 ] - [ DEBUG ]  Session factory constructed with filter configurations : {}
+2017-01-15 21:10:59  [ main:1733 ] - [ DEBUG ]  Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=root, sun.boot.library.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/amd64, java.vm.version=25.91-b14, hibernate.connection.username=root, hibernate.connection.useUnicode=true, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/wangxn/workspace/jee_workspace/hibernate_toy2, java.runtime.version=1.8.0_91-b14, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.connection.characterEncoding=UTF-8, sun.jnu.encoding=UTF-8, java.library.path=:/opt/Qt5.7.0/5.7/gcc_64/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, connection.characterEncoding=UTF-8, os.version=4.4.0-59-generic, user.home=/home/wangxn, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.print.PSPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/test-classes:/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/classes:/home/wangxn/.m2/repository/org/hibernate/hibernate-core/4.2.0.Final/hibernate-core-4.2.0.Final.jar:/home/wangxn/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/wangxn/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/wangxn/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/wangxn/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/wangxn/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/wangxn/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/wangxn/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar:/home/wangxn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/wangxn/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/home/wangxn/.m2/repository/junit/junit/4.7/junit-4.7.jar:/opt/eclipse/configuration/org.eclipse.osgi/388/0/.cp/:/opt/eclipse/configuration/org.eclipse.osgi/387/0/.cp/, user.name=wangxn, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=/usr/lib/jvm/jdk1.8.0_91/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 44847 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames cn.wxn.demo.test.Test, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_91, java.ext.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_91/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, sun.cpu.isalist=}
+2017-01-15 21:10:59  [ main:1775 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:10:59  [ main:1776 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:10:59  [ main:1776 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:10:59  [ main:1919 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Student
+2017-01-15 21:10:59  [ main:1923 ] - [ DEBUG ]   Version select: select student_id from t_student where student_id =?
+2017-01-15 21:10:59  [ main:1924 ] - [ DEBUG ]   Snapshot select: select student_.student_id, student_.name as name2_2_, student_.gender as gender3_2_, student_.classroom_id as classroo4_2_ from t_student student_ where student_.student_id=?
+2017-01-15 21:10:59  [ main:1924 ] - [ DEBUG ]   Insert 0: insert into t_student (name, gender, classroom_id, student_id) values (?, ?, ?, ?)
+2017-01-15 21:10:59  [ main:1933 ] - [ DEBUG ]   Update 0: update t_student set name=?, gender=?, classroom_id=? where student_id=?
+2017-01-15 21:10:59  [ main:1933 ] - [ DEBUG ]   Delete 0: delete from t_student where student_id=?
+2017-01-15 21:10:59  [ main:1940 ] - [ DEBUG ]   Identity insert: insert into t_student (name, gender, classroom_id) values (?, ?, ?)
+2017-01-15 21:10:59  [ main:1954 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Special
+2017-01-15 21:10:59  [ main:1955 ] - [ DEBUG ]   Version select: select sid from t_special where sid =?
+2017-01-15 21:10:59  [ main:1955 ] - [ DEBUG ]   Snapshot select: select special_.sid, special_.name as name2_1_, special_.type as type3_1_ from t_special special_ where special_.sid=?
+2017-01-15 21:10:59  [ main:1958 ] - [ DEBUG ]   Insert 0: insert into t_special (name, type, sid) values (?, ?, ?)
+2017-01-15 21:10:59  [ main:1959 ] - [ DEBUG ]   Update 0: update t_special set name=?, type=? where sid=?
+2017-01-15 21:10:59  [ main:1959 ] - [ DEBUG ]   Delete 0: delete from t_special where sid=?
+2017-01-15 21:10:59  [ main:1960 ] - [ DEBUG ]   Identity insert: insert into t_special (name, type) values (?, ?)
+2017-01-15 21:10:59  [ main:1978 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Classroom
+2017-01-15 21:10:59  [ main:1979 ] - [ DEBUG ]   Version select: select cid from t_classroom where cid =?
+2017-01-15 21:10:59  [ main:1983 ] - [ DEBUG ]   Snapshot select: select classroom_.cid, classroom_.name as name2_0_, classroom_.grade as grade3_0_, classroom_.special_id as special4_0_ from t_classroom classroom_ where classroom_.cid=?
+2017-01-15 21:10:59  [ main:1986 ] - [ DEBUG ]   Insert 0: insert into t_classroom (name, grade, special_id, cid) values (?, ?, ?, ?)
+2017-01-15 21:10:59  [ main:1987 ] - [ DEBUG ]   Update 0: update t_classroom set name=?, grade=?, special_id=? where cid=?
+2017-01-15 21:10:59  [ main:1987 ] - [ DEBUG ]   Delete 0: delete from t_classroom where cid=?
+2017-01-15 21:10:59  [ main:1988 ] - [ DEBUG ]   Identity insert: insert into t_classroom (name, grade, special_id) values (?, ?, ?)
+2017-01-15 21:10:59  [ main:2004 ] - [ DEBUG ]  Static SQL for collection: cn.wxn.demo.entity.Classroom.students
+2017-01-15 21:10:59  [ main:2005 ] - [ DEBUG ]   Row insert: update t_student set classroom_id=? where student_id=?
+2017-01-15 21:10:59  [ main:2010 ] - [ DEBUG ]   Row update: update t_student set  where student_id=?
+2017-01-15 21:10:59  [ main:2012 ] - [ DEBUG ]   Row delete: update t_student set classroom_id=null where classroom_id=? and student_id=?
+2017-01-15 21:10:59  [ main:2013 ] - [ DEBUG ]   One-shot delete: update t_student set classroom_id=null where classroom_id=?
+2017-01-15 21:10:59  [ main:2013 ] - [ DEBUG ]  Static SQL for collection: cn.wxn.demo.entity.Special.classrooms
+2017-01-15 21:10:59  [ main:2014 ] - [ DEBUG ]   Row insert: update t_classroom set special_id=? where cid=?
+2017-01-15 21:10:59  [ main:2014 ] - [ DEBUG ]   Row update: update t_classroom set  where cid=?
+2017-01-15 21:10:59  [ main:2014 ] - [ DEBUG ]   Row delete: update t_classroom set special_id=null where special_id=? and cid=?
+2017-01-15 21:10:59  [ main:2014 ] - [ DEBUG ]   One-shot delete: update t_classroom set special_id=null where special_id=?
+2017-01-15 21:10:59  [ main:2038 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [NONE]: select student0_.student_id as student1_2_2_, student0_.name as name2_2_2_, student0_.gender as gender3_2_2_, student0_.classroom_id as classroo4_2_2_, classroom1_.cid as cid1_0_0_, classroom1_.name as name2_0_0_, classroom1_.grade as grade3_0_0_, classroom1_.special_id as special4_0_0_, special2_.sid as sid1_1_1_, special2_.name as name2_1_1_, special2_.type as type3_1_1_ from t_student student0_ left outer join t_classroom classroom1_ on student0_.classroom_id=classroom1_.cid left outer join t_special special2_ on classroom1_.special_id=special2_.sid where student0_.student_id=?
+2017-01-15 21:10:59  [ main:2039 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [READ]: select student0_.student_id as student1_2_2_, student0_.name as name2_2_2_, student0_.gender as gender3_2_2_, student0_.classroom_id as classroo4_2_2_, classroom1_.cid as cid1_0_0_, classroom1_.name as name2_0_0_, classroom1_.grade as grade3_0_0_, classroom1_.special_id as special4_0_0_, special2_.sid as sid1_1_1_, special2_.name as name2_1_1_, special2_.type as type3_1_1_ from t_student student0_ left outer join t_classroom classroom1_ on student0_.classroom_id=classroom1_.cid left outer join t_special special2_ on classroom1_.special_id=special2_.sid where student0_.student_id=?
+2017-01-15 21:10:59  [ main:2042 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [UPGRADE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:10:59  [ main:2042 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [UPGRADE_NOWAIT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:10:59  [ main:2043 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [FORCE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:10:59  [ main:2043 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_READ]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? lock in share mode
+2017-01-15 21:10:59  [ main:2043 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_WRITE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:11:00  [ main:2045 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:11:00  [ main:2045 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [OPTIMISTIC]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:11:00  [ main:2046 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:11:00  [ main:2053 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Student: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:11:00  [ main:2058 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Student: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:11:00  [ main:2059 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [NONE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2061 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [READ]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2062 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [UPGRADE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:11:00  [ main:2062 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [UPGRADE_NOWAIT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:11:00  [ main:2063 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [FORCE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:11:00  [ main:2065 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_READ]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? lock in share mode
+2017-01-15 21:11:00  [ main:2066 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_WRITE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:11:00  [ main:2066 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_FORCE_INCREMENT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:11:00  [ main:2066 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [OPTIMISTIC]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2066 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [OPTIMISTIC_FORCE_INCREMENT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2067 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Special: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2067 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Special: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:11:00  [ main:2068 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [NONE]: select classroom0_.cid as cid1_0_1_, classroom0_.name as name2_0_1_, classroom0_.grade as grade3_0_1_, classroom0_.special_id as special4_0_1_, special1_.sid as sid1_1_0_, special1_.name as name2_1_0_, special1_.type as type3_1_0_ from t_classroom classroom0_ left outer join t_special special1_ on classroom0_.special_id=special1_.sid where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2069 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [READ]: select classroom0_.cid as cid1_0_1_, classroom0_.name as name2_0_1_, classroom0_.grade as grade3_0_1_, classroom0_.special_id as special4_0_1_, special1_.sid as sid1_1_0_, special1_.name as name2_1_0_, special1_.type as type3_1_0_ from t_classroom classroom0_ left outer join t_special special1_ on classroom0_.special_id=special1_.sid where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2069 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [UPGRADE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:11:00  [ main:2070 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [UPGRADE_NOWAIT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:11:00  [ main:2071 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [FORCE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:11:00  [ main:2072 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_READ]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? lock in share mode
+2017-01-15 21:11:00  [ main:2075 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_WRITE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:11:00  [ main:2075 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_FORCE_INCREMENT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:11:00  [ main:2076 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [OPTIMISTIC]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2076 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [OPTIMISTIC_FORCE_INCREMENT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2077 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Classroom: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2077 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Classroom: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:11:00  [ main:2083 ] - [ DEBUG ]  Static select for one-to-many cn.wxn.demo.entity.Classroom.students: select students0_.classroom_id as classroo4_0_1_, students0_.student_id as student1_2_1_, students0_.student_id as student1_2_0_, students0_.name as name2_2_0_, students0_.gender as gender3_2_0_, students0_.classroom_id as classroo4_2_0_ from t_student students0_ where students0_.classroom_id=?
+2017-01-15 21:11:00  [ main:2084 ] - [ DEBUG ]  Static select for one-to-many cn.wxn.demo.entity.Special.classrooms: select classrooms0_.special_id as special4_1_1_, classrooms0_.cid as cid1_0_1_, classrooms0_.cid as cid1_0_0_, classrooms0_.name as name2_0_0_, classrooms0_.grade as grade3_0_0_, classrooms0_.special_id as special4_0_0_ from t_classroom classrooms0_ where classrooms0_.special_id=?
+2017-01-15 21:11:00  [ main:2089 ] - [ DEBUG ]  Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3e96bacf
+2017-01-15 21:11:00  [ main:2093 ] - [ DEBUG ]  Registering SessionFactory: f0ec1fb6-bb7b-4d37-9064-2ec7becfb03a (<unnamed>)
+2017-01-15 21:11:00  [ main:2093 ] - [ DEBUG ]  Not binding SessionFactory to JNDI, no JNDI name configured
+2017-01-15 21:11:00  [ main:2093 ] - [ DEBUG ]  Instantiated session factory
+2017-01-15 21:11:00  [ main:2100 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2017-01-15 21:11:00  [ main:2100 ] - [ INFO ]  HHH000102: Fetching database metadata
+2017-01-15 21:11:00  [ main:2102 ] - [ INFO ]  HHH000396: Updating schema
+2017-01-15 21:11:00  [ main:2103 ] - [ DEBUG ]  Processing hbm.xml files
+2017-01-15 21:11:00  [ main:2103 ] - [ DEBUG ]  Process annotated classes
+2017-01-15 21:11:00  [ main:2103 ] - [ DEBUG ]  Processing fk mappings (*ToOne and JoinedSubclass)
+2017-01-15 21:11:00  [ main:2103 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:11:00  [ main:2104 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:11:00  [ main:2105 ] - [ DEBUG ]  Processing collection mappings
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Processing native query and ResultSetMapping mappings
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Processing association property references
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Creating tables' unique integer identifiers
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Processing foreign key constraints
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Special
+2017-01-15 21:11:00  [ main:2106 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Classroom
+2017-01-15 21:11:00  [ main:2109 ] - [ INFO ]  HHH000262: Table not found: t_classroom
+2017-01-15 21:11:00  [ main:2110 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2117 ] - [ INFO ]  HHH000262: Table not found: t_special
+2017-01-15 21:11:00  [ main:2117 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2119 ] - [ INFO ]  HHH000262: Table not found: t_student
+2017-01-15 21:11:00  [ main:2119 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2120 ] - [ INFO ]  HHH000262: Table not found: t_classroom
+2017-01-15 21:11:00  [ main:2122 ] - [ INFO ]  HHH000262: Table not found: t_special
+2017-01-15 21:11:00  [ main:2128 ] - [ INFO ]  HHH000262: Table not found: t_student
+2017-01-15 21:11:00  [ main:2129 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2129 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2129 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:11:00  [ main:2130 ] - [ DEBUG ]  create table t_classroom (cid integer not null auto_increment, name varchar(255), grade varchar(255), special_id integer, primary key (cid))
+2017-01-15 21:11:00  [ main:2544 ] - [ DEBUG ]  create table t_special (sid integer not null auto_increment, name varchar(255), type varchar(255), primary key (sid))
+2017-01-15 21:11:00  [ main:2923 ] - [ DEBUG ]  create table t_student (student_id integer not null auto_increment, name varchar(255), gender varchar(255), classroom_id integer, primary key (student_id))
+2017-01-15 21:11:01  [ main:3249 ] - [ DEBUG ]  alter table t_classroom add index FK1E5BA848D7F15D16 (special_id), add constraint FK1E5BA848D7F15D16 foreign key (special_id) references t_special (sid)
+2017-01-15 21:11:02  [ main:4153 ] - [ DEBUG ]  alter table t_student add index FK4B9075704217AFD6 (classroom_id), add constraint FK4B9075704217AFD6 foreign key (classroom_id) references t_classroom (cid)
+2017-01-15 21:11:03  [ main:5147 ] - [ INFO ]  HHH000232: Schema update complete
+2017-01-15 21:11:03  [ main:5148 ] - [ DEBUG ]  Checking 0 named HQL queries
+2017-01-15 21:11:03  [ main:5148 ] - [ DEBUG ]  Checking 0 named SQL queries
+2017-01-15 21:11:03  [ main:5154 ] - [ DEBUG ]  Statistics initialized [enabled=false]
+2017-01-15 21:11:03  [ main:5195 ] - [ DEBUG ]  begin
+2017-01-15 21:11:03  [ main:5195 ] - [ DEBUG ]  Obtaining JDBC connection
+2017-01-15 21:11:03  [ main:5195 ] - [ DEBUG ]  Obtained JDBC connection
+2017-01-15 21:11:03  [ main:5196 ] - [ DEBUG ]  initial autocommit status: false
+2017-01-15 21:11:03  [ main:5240 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5243 ] - [ DEBUG ]  insert into t_special (name, type) values (?, ?)
+2017-01-15 21:11:03  [ main:5287 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:11:03  [ main:5291 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5291 ] - [ DEBUG ]  insert into t_classroom (name, grade, special_id) values (?, ?, ?)
+2017-01-15 21:11:03  [ main:5294 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:11:03  [ main:5294 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5294 ] - [ DEBUG ]  insert into t_classroom (name, grade, special_id) values (?, ?, ?)
+2017-01-15 21:11:03  [ main:5296 ] - [ DEBUG ]  Natively generated identity: 2
+2017-01-15 21:11:03  [ main:5297 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5297 ] - [ DEBUG ]  insert into t_student (name, gender, classroom_id) values (?, ?, ?)
+2017-01-15 21:11:03  [ main:5392 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:11:03  [ main:5393 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5394 ] - [ DEBUG ]  insert into t_student (name, gender, classroom_id) values (?, ?, ?)
+2017-01-15 21:11:03  [ main:5396 ] - [ DEBUG ]  Natively generated identity: 2
+2017-01-15 21:11:03  [ main:5397 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:11:03  [ main:5397 ] - [ DEBUG ]  insert into t_student (name, gender, classroom_id) values (?, ?, ?)
+2017-01-15 21:11:03  [ main:5459 ] - [ DEBUG ]  Natively generated identity: 3
+2017-01-15 21:11:03  [ main:5460 ] - [ DEBUG ]  committing
+2017-01-15 21:11:03  [ main:5462 ] - [ DEBUG ]  Processing flush-time cascades
+2017-01-15 21:11:03  [ main:5463 ] - [ DEBUG ]  Dirty checking collections
+2017-01-15 21:11:03  [ main:5465 ] - [ DEBUG ]  Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-01-15 21:11:03  [ main:5465 ] - [ DEBUG ]  Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-01-15 21:11:03  [ main:5466 ] - [ DEBUG ]  Listing entities:
+2017-01-15 21:11:03  [ main:5467 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=刘备, classroom=cn.wxn.demo.entity.Classroom#1, id=2}
+2017-01-15 21:11:03  [ main:5467 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=张辽, classroom=cn.wxn.demo.entity.Classroom#2, id=3}
+2017-01-15 21:11:03  [ main:5467 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=张飞, classroom=cn.wxn.demo.entity.Classroom#1, id=1}
+2017-01-15 21:11:03  [ main:5467 ] - [ DEBUG ]  cn.wxn.demo.entity.Classroom{special=cn.wxn.demo.entity.Special#1, grade=一年级, name=电气工程及其自动化三班, students=null, cid=2}
+2017-01-15 21:11:03  [ main:5468 ] - [ DEBUG ]  cn.wxn.demo.entity.Classroom{special=cn.wxn.demo.entity.Special#1, grade=一年级, name=电气工程及其自动化一班, students=null, cid=1}
+2017-01-15 21:11:03  [ main:5468 ] - [ DEBUG ]  cn.wxn.demo.entity.Special{name=电气工程系, type=电气工程及其自动化, classrooms=null, sid=1}
+2017-01-15 21:11:03  [ main:5503 ] - [ DEBUG ]  committed JDBC Connection
+2017-01-15 21:11:03  [ main:5505 ] - [ DEBUG ]  Releasing JDBC connection
+2017-01-15 21:11:03  [ main:5505 ] - [ DEBUG ]  Released JDBC connection
+2017-01-15 21:12:27  [ main:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-01-15 21:12:27  [ main:74 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:12:27  [ main:74 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:12:27  [ main:75 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3ada9e37
+2017-01-15 21:12:27  [ main:79 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@567d299b
+2017-01-15 21:12:27  [ main:82 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@6c629d6e
+2017-01-15 21:12:27  [ main:84 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@27abe2cd
+2017-01-15 21:12:27  [ main:88 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:12:27  [ main:89 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:12:27  [ main:90 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4fccd51b
+2017-01-15 21:12:27  [ main:93 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:12:27  [ main:93 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:12:27  [ main:94 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61baa894
+2017-01-15 21:12:27  [ main:105 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:12:27  [ main:106 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:12:27  [ main:106 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@27082746
+2017-01-15 21:12:27  [ main:117 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:12:27  [ main:123 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:12:27  [ main:124 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@33e5ccce
+2017-01-15 21:12:27  [ main:126 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:12:27  [ main:126 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:12:27  [ main:126 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@769c9116
+2017-01-15 21:12:27  [ main:133 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:12:27  [ main:133 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:12:27  [ main:134 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@67117f44
+2017-01-15 21:12:27  [ main:135 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:12:27  [ main:136 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:12:27  [ main:136 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2be94b0f
+2017-01-15 21:12:27  [ main:160 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3930015a
+2017-01-15 21:12:27  [ main:163 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3930015a
+2017-01-15 21:12:27  [ main:165 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@224aed64
+2017-01-15 21:12:27  [ main:166 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@224aed64
+2017-01-15 21:12:27  [ main:167 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@1c53fd30
+2017-01-15 21:12:27  [ main:167 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@1c53fd30
+2017-01-15 21:12:27  [ main:186 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@f5f2bb7
+2017-01-15 21:12:27  [ main:191 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@21a06946
+2017-01-15 21:12:27  [ main:193 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@71f2a7d5
+2017-01-15 21:12:27  [ main:193 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@71f2a7d5
+2017-01-15 21:12:27  [ main:204 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@61a52fbd
+2017-01-15 21:12:27  [ main:206 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@61a52fbd
+2017-01-15 21:12:27  [ main:210 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@47fd17e3
+2017-01-15 21:12:27  [ main:210 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@47fd17e3
+2017-01-15 21:12:27  [ main:218 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:12:27  [ main:220 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:12:27  [ main:223 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@34340fab
+2017-01-15 21:12:27  [ main:229 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3ab39c39
+2017-01-15 21:12:27  [ main:239 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:12:27  [ main:239 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:12:27  [ main:240 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@28864e92
+2017-01-15 21:12:27  [ main:241 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6833ce2c
+2017-01-15 21:12:27  [ main:243 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@35851384
+2017-01-15 21:12:27  [ main:250 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@35851384
+2017-01-15 21:12:27  [ main:255 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@256216b3
+2017-01-15 21:12:27  [ main:256 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@256216b3
+2017-01-15 21:12:27  [ main:260 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@4ec6a292
+2017-01-15 21:12:27  [ main:261 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4ec6a292
+2017-01-15 21:12:27  [ main:266 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@5a01ccaa
+2017-01-15 21:12:27  [ main:270 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5a01ccaa
+2017-01-15 21:12:27  [ main:272 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@66d33a
+2017-01-15 21:12:27  [ main:272 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@66d33a
+2017-01-15 21:12:27  [ main:277 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6debcae2
+2017-01-15 21:12:27  [ main:281 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@75bd9247
+2017-01-15 21:12:27  [ main:291 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:12:27  [ main:309 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:12:27  [ main:313 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@5a39699c
+2017-01-15 21:12:27  [ main:315 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:12:27  [ main:315 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:12:27  [ main:315 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@129a8472
+2017-01-15 21:12:27  [ main:320 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@6b71769e
+2017-01-15 21:12:27  [ main:326 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:12:27  [ main:330 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:12:27  [ main:332 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@4c203ea1
+2017-01-15 21:12:27  [ main:334 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:12:27  [ main:338 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:12:27  [ main:338 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7c30a502
+2017-01-15 21:12:27  [ main:341 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@5594a1b5
+2017-01-15 21:12:27  [ main:343 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@7a79be86
+2017-01-15 21:12:27  [ main:351 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@3796751b
+2017-01-15 21:12:27  [ main:352 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3796751b
+2017-01-15 21:12:27  [ main:352 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6442b0a6
+2017-01-15 21:12:27  [ main:357 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@6b2fad11
+2017-01-15 21:12:27  [ main:359 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6b2fad11
+2017-01-15 21:12:27  [ main:365 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@5315b42e
+2017-01-15 21:12:27  [ main:366 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5315b42e
+2017-01-15 21:12:27  [ main:366 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1e67b872
+2017-01-15 21:12:27  [ main:367 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4cb2c100
+2017-01-15 21:12:27  [ main:371 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@68837a77
+2017-01-15 21:12:27  [ main:381 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@2d3fcdbd
+2017-01-15 21:12:27  [ main:382 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2d3fcdbd
+2017-01-15 21:12:27  [ main:386 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@67b6d4ae
+2017-01-15 21:12:27  [ main:387 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@34b7bfc0
+2017-01-15 21:12:27  [ main:387 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@366e2eef
+2017-01-15 21:12:27  [ main:387 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6df97b55
+2017-01-15 21:12:27  [ main:387 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3cbbc1e0
+2017-01-15 21:12:27  [ main:388 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@35fb3008
+2017-01-15 21:12:27  [ main:388 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7225790e
+2017-01-15 21:12:27  [ main:388 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@54a097cc
+2017-01-15 21:12:27  [ main:430 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-01-15 21:12:27  [ main:447 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.0.Final}
+2017-01-15 21:12:27  [ main:452 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2017-01-15 21:12:27  [ main:461 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2017-01-15 21:12:27  [ main:477 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-01-15 21:12:27  [ main:477 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-01-15 21:12:27  [ main:479 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-01-15 21:12:27  [ main:480 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-01-15 21:12:27  [ main:491 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2017-01-15 21:12:27  [ main:492 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-01-15 21:12:27  [ main:499 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-01-15 21:12:27  [ main:500 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-01-15 21:12:27  [ main:501 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2017-01-15 21:12:27  [ main:502 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-01-15 21:12:27  [ main:502 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-01-15 21:12:27  [ main:503 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-01-15 21:12:27  [ main:504 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-01-15 21:12:27  [ main:504 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-01-15 21:12:27  [ main:505 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-01-15 21:12:27  [ main:509 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-01-15 21:12:27  [ main:509 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-01-15 21:12:27  [ main:597 ] - [ DEBUG ]  Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2017-01-15 21:12:27  [ main:598 ] - [ DEBUG ]  Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:12:27  [ main:598 ] - [ DEBUG ]  Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+2017-01-15 21:12:27  [ main:631 ] - [ DEBUG ]  hibernate.dialect=org.hibernate.dialect.MySQLDialect
+2017-01-15 21:12:27  [ main:631 ] - [ DEBUG ]  hibernate.connection.driver_class=com.mysql.jdbc.Driver
+2017-01-15 21:12:27  [ main:632 ] - [ DEBUG ]  hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo
+2017-01-15 21:12:27  [ main:632 ] - [ DEBUG ]  hibernate.connection.password=root
+2017-01-15 21:12:27  [ main:633 ] - [ DEBUG ]  hibernate.connection.username=root
+2017-01-15 21:12:27  [ main:634 ] - [ DEBUG ]  hibernate.connection.useUnicode=true
+2017-01-15 21:12:27  [ main:634 ] - [ DEBUG ]  connection.characterEncoding=UTF-8
+2017-01-15 21:12:27  [ main:636 ] - [ DEBUG ]  show_sql=true
+2017-01-15 21:12:27  [ main:637 ] - [ DEBUG ]  format_sql=true
+2017-01-15 21:12:27  [ main:637 ] - [ DEBUG ]  hbm2ddl.auto=update
+2017-01-15 21:12:27  [ main:639 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Classroom.hbm.xml] for mapping
+2017-01-15 21:12:27  [ main:639 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Classroom.hbm.xml
+2017-01-15 21:12:27  [ main:683 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:12:27  [ main:683 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:12:27  [ main:683 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:12:27  [ main:684 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:12:27  [ main:738 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Special.hbm.xml] for mapping
+2017-01-15 21:12:27  [ main:747 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Special.hbm.xml
+2017-01-15 21:12:27  [ main:749 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:12:27  [ main:749 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:12:27  [ main:750 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:12:27  [ main:753 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:12:27  [ main:787 ] - [ DEBUG ]  Session-factory config [null] named resource [cn/wxn/demo/entity/Student.hbm.xml] for mapping
+2017-01-15 21:12:27  [ main:788 ] - [ INFO ]  HHH000221: Reading mappings from resource: cn/wxn/demo/entity/Student.hbm.xml
+2017-01-15 21:12:27  [ main:791 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+2017-01-15 21:12:27  [ main:791 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-01-15 21:12:27  [ main:791 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+2017-01-15 21:12:27  [ main:792 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+2017-01-15 21:12:27  [ main:812 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2017-01-15 21:12:27  [ main:812 ] - [ DEBUG ]  Properties: {hibernate.connection.password=root, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/amd64, java.vm.version=25.91-b14, hibernate.connection.username=root, hibernate.connection.useUnicode=true, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/wangxn/workspace/jee_workspace/hibernate_toy2, java.runtime.version=1.8.0_91-b14, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.connection.characterEncoding=UTF-8, sun.jnu.encoding=UTF-8, java.library.path=:/opt/Qt5.7.0/5.7/gcc_64/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, connection.characterEncoding=UTF-8, os.version=4.4.0-59-generic, user.home=/home/wangxn, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=wangxn, java.class.path=/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/test-classes:/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/classes:/home/wangxn/.m2/repository/org/hibernate/hibernate-core/4.2.0.Final/hibernate-core-4.2.0.Final.jar:/home/wangxn/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/wangxn/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/wangxn/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/wangxn/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/wangxn/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/wangxn/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/wangxn/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar:/home/wangxn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/wangxn/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/home/wangxn/.m2/repository/junit/junit/4.7/junit-4.7.jar:/opt/eclipse/configuration/org.eclipse.osgi/388/0/.cp/:/opt/eclipse/configuration/org.eclipse.osgi/387/0/.cp/, format_sql=true, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 35437 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames cn.wxn.demo.test.Test, java.home=/usr/lib/jvm/jdk1.8.0_91/jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_91, java.ext.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_91/jre/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, sun.cpu.isalist=}
+2017-01-15 21:12:27  [ main:841 ] - [ DEBUG ]  Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-01-15 21:12:27  [ main:896 ] - [ DEBUG ]  Preparing to build session factory with filters : {}
+2017-01-15 21:12:27  [ main:936 ] - [ DEBUG ]  Processing hbm.xml files
+2017-01-15 21:12:28  [ main:971 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Classroom -> t_classroom
+2017-01-15 21:12:28  [ main:980 ] - [ DEBUG ]  Mapped property: cid -> cid
+2017-01-15 21:12:28  [ main:988 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:12:28  [ main:989 ] - [ DEBUG ]  Mapped property: grade -> grade
+2017-01-15 21:12:28  [ main:994 ] - [ DEBUG ]  Mapped property: students
+2017-01-15 21:12:28  [ main:999 ] - [ DEBUG ]  Mapped property: special -> special_id
+2017-01-15 21:12:28  [ main:1000 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Special -> t_special
+2017-01-15 21:12:28  [ main:1002 ] - [ DEBUG ]  Mapped property: sid -> sid
+2017-01-15 21:12:28  [ main:1003 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:12:28  [ main:1003 ] - [ DEBUG ]  Mapped property: type -> type
+2017-01-15 21:12:28  [ main:1004 ] - [ DEBUG ]  Mapped property: classrooms
+2017-01-15 21:12:28  [ main:1006 ] - [ DEBUG ]  Mapping class: cn.wxn.demo.entity.Student -> t_student
+2017-01-15 21:12:28  [ main:1006 ] - [ DEBUG ]  Mapped property: id -> student_id
+2017-01-15 21:12:28  [ main:1007 ] - [ DEBUG ]  Mapped property: name -> name
+2017-01-15 21:12:28  [ main:1009 ] - [ DEBUG ]  Mapped property: gender -> gender
+2017-01-15 21:12:28  [ main:1009 ] - [ DEBUG ]  Mapped property: classroom -> classroom_id
+2017-01-15 21:12:28  [ main:1010 ] - [ DEBUG ]  Process annotated classes
+2017-01-15 21:12:28  [ main:1012 ] - [ DEBUG ]  Processing fk mappings (*ToOne and JoinedSubclass)
+2017-01-15 21:12:28  [ main:1013 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:12:28  [ main:1013 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:12:28  [ main:1013 ] - [ DEBUG ]  Processing collection mappings
+2017-01-15 21:12:28  [ main:1014 ] - [ DEBUG ]  Second pass for collection: cn.wxn.demo.entity.Classroom.students
+2017-01-15 21:12:28  [ main:1019 ] - [ DEBUG ]  Mapping collection: cn.wxn.demo.entity.Classroom.students -> t_student
+2017-01-15 21:12:28  [ main:1025 ] - [ DEBUG ]  Mapped collection key: classroom_id, one-to-many: cn.wxn.demo.entity.Student
+2017-01-15 21:12:28  [ main:1026 ] - [ DEBUG ]  Second pass for collection: cn.wxn.demo.entity.Special.classrooms
+2017-01-15 21:12:28  [ main:1026 ] - [ DEBUG ]  Mapping collection: cn.wxn.demo.entity.Special.classrooms -> t_classroom
+2017-01-15 21:12:28  [ main:1026 ] - [ DEBUG ]  Mapped collection key: special_id, one-to-many: cn.wxn.demo.entity.Classroom
+2017-01-15 21:12:28  [ main:1027 ] - [ DEBUG ]  Processing native query and ResultSetMapping mappings
+2017-01-15 21:12:28  [ main:1027 ] - [ DEBUG ]  Processing association property references
+2017-01-15 21:12:28  [ main:1027 ] - [ DEBUG ]  Creating tables' unique integer identifiers
+2017-01-15 21:12:28  [ main:1027 ] - [ DEBUG ]  Processing foreign key constraints
+2017-01-15 21:12:28  [ main:1027 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Special
+2017-01-15 21:12:28  [ main:1028 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Classroom
+2017-01-15 21:12:28  [ main:1042 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-01-15 21:12:28  [ main:1047 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2017-01-15 21:12:28  [ main:1048 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2017-01-15 21:12:28  [ main:1048 ] - [ INFO ]  HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_demo]
+2017-01-15 21:12:28  [ main:1049 ] - [ INFO ]  HHH000046: Connection properties: {useUnicode=true, user=root, password=root, characterEncoding=UTF-8}
+2017-01-15 21:12:28  [ main:1076 ] - [ DEBUG ]  Opening new JDBC connection
+2017-01-15 21:12:28  [ main:1421 ] - [ DEBUG ]  Created connection to: jdbc:mysql://localhost:3306/hibernate_demo, Isolation Level: 4
+2017-01-15 21:12:28  [ main:1421 ] - [ DEBUG ]  Database ->
+       name : MySQL
+    version : 5.7.16-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+2017-01-15 21:12:28  [ main:1421 ] - [ DEBUG ]  Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+2017-01-15 21:12:28  [ main:1422 ] - [ DEBUG ]  JDBC version : 3.0
+2017-01-15 21:12:28  [ main:1437 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-01-15 21:12:28  [ main:1445 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-01-15 21:12:28  [ main:1457 ] - [ DEBUG ]  Automatic flush during beforeCompletion(): disabled
+2017-01-15 21:12:28  [ main:1457 ] - [ DEBUG ]  Automatic session close at end of transaction: disabled
+2017-01-15 21:12:28  [ main:1458 ] - [ DEBUG ]  JDBC batch size: 15
+2017-01-15 21:12:28  [ main:1458 ] - [ DEBUG ]  JDBC batch updates for versioned data: disabled
+2017-01-15 21:12:28  [ main:1458 ] - [ DEBUG ]  Scrollable result sets: enabled
+2017-01-15 21:12:28  [ main:1458 ] - [ DEBUG ]  Wrap result sets: disabled
+2017-01-15 21:12:28  [ main:1458 ] - [ DEBUG ]  JDBC3 getGeneratedKeys(): enabled
+2017-01-15 21:12:28  [ main:1459 ] - [ DEBUG ]  multi-tenancy strategy : NONE
+2017-01-15 21:12:28  [ main:1459 ] - [ DEBUG ]  Connection release mode: auto
+2017-01-15 21:12:28  [ main:1459 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-01-15 21:12:28  [ main:1462 ] - [ DEBUG ]  Using BatchFetchStyle : LEGACY
+2017-01-15 21:12:28  [ main:1462 ] - [ DEBUG ]  Maximum outer join fetch depth: 2
+2017-01-15 21:12:28  [ main:1463 ] - [ DEBUG ]  Default batch fetch size: 1
+2017-01-15 21:12:28  [ main:1463 ] - [ DEBUG ]  Generate SQL with comments: disabled
+2017-01-15 21:12:28  [ main:1463 ] - [ DEBUG ]  Order SQL updates by primary key: disabled
+2017-01-15 21:12:28  [ main:1463 ] - [ DEBUG ]  Order SQL inserts for batching: disabled
+2017-01-15 21:12:28  [ main:1463 ] - [ DEBUG ]  Default null ordering: none
+2017-01-15 21:12:28  [ main:1464 ] - [ DEBUG ]  Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2017-01-15 21:12:28  [ main:1466 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2017-01-15 21:12:28  [ main:1466 ] - [ DEBUG ]  Query language substitutions: {}
+2017-01-15 21:12:28  [ main:1466 ] - [ DEBUG ]  JPA-QL strict compliance: disabled
+2017-01-15 21:12:28  [ main:1466 ] - [ DEBUG ]  Second-level cache: enabled
+2017-01-15 21:12:28  [ main:1466 ] - [ DEBUG ]  Query cache: disabled
+2017-01-15 21:12:28  [ main:1467 ] - [ DEBUG ]  Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2017-01-15 21:12:28  [ main:1467 ] - [ DEBUG ]  org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2017-01-15 21:12:28  [ main:1468 ] - [ DEBUG ]  Optimize cache for minimal puts: disabled
+2017-01-15 21:12:28  [ main:1468 ] - [ DEBUG ]  Structured second-level cache entries: disabled
+2017-01-15 21:12:28  [ main:1468 ] - [ DEBUG ]  Second-level cache direct-reference entries: disabled
+2017-01-15 21:12:28  [ main:1468 ] - [ DEBUG ]  Statistics: disabled
+2017-01-15 21:12:28  [ main:1468 ] - [ DEBUG ]  Deleted entity synthetic identifier rollback: disabled
+2017-01-15 21:12:28  [ main:1469 ] - [ DEBUG ]  Default entity-mode: pojo
+2017-01-15 21:12:28  [ main:1469 ] - [ DEBUG ]  Named query checking : enabled
+2017-01-15 21:12:28  [ main:1469 ] - [ DEBUG ]  Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2017-01-15 21:12:28  [ main:1469 ] - [ DEBUG ]  Allow initialization of lazy state outside session : : disabled
+2017-01-15 21:12:28  [ main:1469 ] - [ DEBUG ]  JTA Track by Thread: enabled
+2017-01-15 21:12:28  [ main:1479 ] - [ DEBUG ]  Building session factory
+2017-01-15 21:12:28  [ main:1488 ] - [ DEBUG ]  Session factory constructed with filter configurations : {}
+2017-01-15 21:12:28  [ main:1489 ] - [ DEBUG ]  Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=root, sun.boot.library.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/amd64, java.vm.version=25.91-b14, hibernate.connection.username=root, hibernate.connection.useUnicode=true, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/wangxn/workspace/jee_workspace/hibernate_toy2, java.runtime.version=1.8.0_91-b14, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.connection.characterEncoding=UTF-8, sun.jnu.encoding=UTF-8, java.library.path=:/opt/Qt5.7.0/5.7/gcc_64/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, connection.characterEncoding=UTF-8, os.version=4.4.0-59-generic, user.home=/home/wangxn, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.print.PSPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/test-classes:/home/wangxn/workspace/jee_workspace/hibernate_toy2/target/classes:/home/wangxn/.m2/repository/org/hibernate/hibernate-core/4.2.0.Final/hibernate-core-4.2.0.Final.jar:/home/wangxn/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/wangxn/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/wangxn/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/wangxn/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/wangxn/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/wangxn/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/wangxn/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar:/home/wangxn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/wangxn/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/home/wangxn/.m2/repository/junit/junit/4.7/junit-4.7.jar:/opt/eclipse/configuration/org.eclipse.osgi/388/0/.cp/:/opt/eclipse/configuration/org.eclipse.osgi/387/0/.cp/, user.name=wangxn, hibernate.bytecode.use_reflection_optimizer=false, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=/usr/lib/jvm/jdk1.8.0_91/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 35437 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames cn.wxn.demo.test.Test, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernate_demo, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_91, java.ext.dirs=/usr/lib/jvm/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/jdk1.8.0_91/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_91/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_91/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, sun.cpu.isalist=}
+2017-01-15 21:12:28  [ main:1500 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1501 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1501 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1631 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Student
+2017-01-15 21:12:28  [ main:1632 ] - [ DEBUG ]   Version select: select student_id from t_student where student_id =?
+2017-01-15 21:12:28  [ main:1632 ] - [ DEBUG ]   Snapshot select: select student_.student_id, student_.name as name2_2_, student_.gender as gender3_2_, student_.classroom_id as classroo4_2_ from t_student student_ where student_.student_id=?
+2017-01-15 21:12:28  [ main:1632 ] - [ DEBUG ]   Insert 0: insert into t_student (name, gender, classroom_id, student_id) values (?, ?, ?, ?)
+2017-01-15 21:12:28  [ main:1632 ] - [ DEBUG ]   Update 0: update t_student set name=?, gender=?, classroom_id=? where student_id=?
+2017-01-15 21:12:28  [ main:1633 ] - [ DEBUG ]   Delete 0: delete from t_student where student_id=?
+2017-01-15 21:12:28  [ main:1633 ] - [ DEBUG ]   Identity insert: insert into t_student (name, gender, classroom_id) values (?, ?, ?)
+2017-01-15 21:12:28  [ main:1645 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Special
+2017-01-15 21:12:28  [ main:1645 ] - [ DEBUG ]   Version select: select sid from t_special where sid =?
+2017-01-15 21:12:28  [ main:1645 ] - [ DEBUG ]   Snapshot select: select special_.sid, special_.name as name2_1_, special_.type as type3_1_ from t_special special_ where special_.sid=?
+2017-01-15 21:12:28  [ main:1646 ] - [ DEBUG ]   Insert 0: insert into t_special (name, type, sid) values (?, ?, ?)
+2017-01-15 21:12:28  [ main:1646 ] - [ DEBUG ]   Update 0: update t_special set name=?, type=? where sid=?
+2017-01-15 21:12:28  [ main:1646 ] - [ DEBUG ]   Delete 0: delete from t_special where sid=?
+2017-01-15 21:12:28  [ main:1647 ] - [ DEBUG ]   Identity insert: insert into t_special (name, type) values (?, ?)
+2017-01-15 21:12:28  [ main:1651 ] - [ DEBUG ]  Static SQL for entity: cn.wxn.demo.entity.Classroom
+2017-01-15 21:12:28  [ main:1652 ] - [ DEBUG ]   Version select: select cid from t_classroom where cid =?
+2017-01-15 21:12:28  [ main:1652 ] - [ DEBUG ]   Snapshot select: select classroom_.cid, classroom_.name as name2_0_, classroom_.grade as grade3_0_, classroom_.special_id as special4_0_ from t_classroom classroom_ where classroom_.cid=?
+2017-01-15 21:12:28  [ main:1652 ] - [ DEBUG ]   Insert 0: insert into t_classroom (name, grade, special_id, cid) values (?, ?, ?, ?)
+2017-01-15 21:12:28  [ main:1652 ] - [ DEBUG ]   Update 0: update t_classroom set name=?, grade=?, special_id=? where cid=?
+2017-01-15 21:12:28  [ main:1653 ] - [ DEBUG ]   Delete 0: delete from t_classroom where cid=?
+2017-01-15 21:12:28  [ main:1653 ] - [ DEBUG ]   Identity insert: insert into t_classroom (name, grade, special_id) values (?, ?, ?)
+2017-01-15 21:12:28  [ main:1662 ] - [ DEBUG ]  Static SQL for collection: cn.wxn.demo.entity.Classroom.students
+2017-01-15 21:12:28  [ main:1663 ] - [ DEBUG ]   Row insert: update t_student set classroom_id=? where student_id=?
+2017-01-15 21:12:28  [ main:1663 ] - [ DEBUG ]   Row update: update t_student set  where student_id=?
+2017-01-15 21:12:28  [ main:1663 ] - [ DEBUG ]   Row delete: update t_student set classroom_id=null where classroom_id=? and student_id=?
+2017-01-15 21:12:28  [ main:1663 ] - [ DEBUG ]   One-shot delete: update t_student set classroom_id=null where classroom_id=?
+2017-01-15 21:12:28  [ main:1664 ] - [ DEBUG ]  Static SQL for collection: cn.wxn.demo.entity.Special.classrooms
+2017-01-15 21:12:28  [ main:1664 ] - [ DEBUG ]   Row insert: update t_classroom set special_id=? where cid=?
+2017-01-15 21:12:28  [ main:1664 ] - [ DEBUG ]   Row update: update t_classroom set  where cid=?
+2017-01-15 21:12:28  [ main:1664 ] - [ DEBUG ]   Row delete: update t_classroom set special_id=null where special_id=? and cid=?
+2017-01-15 21:12:28  [ main:1664 ] - [ DEBUG ]   One-shot delete: update t_classroom set special_id=null where special_id=?
+2017-01-15 21:12:28  [ main:1685 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [NONE]: select student0_.student_id as student1_2_2_, student0_.name as name2_2_2_, student0_.gender as gender3_2_2_, student0_.classroom_id as classroo4_2_2_, classroom1_.cid as cid1_0_0_, classroom1_.name as name2_0_0_, classroom1_.grade as grade3_0_0_, classroom1_.special_id as special4_0_0_, special2_.sid as sid1_1_1_, special2_.name as name2_1_1_, special2_.type as type3_1_1_ from t_student student0_ left outer join t_classroom classroom1_ on student0_.classroom_id=classroom1_.cid left outer join t_special special2_ on classroom1_.special_id=special2_.sid where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1685 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [READ]: select student0_.student_id as student1_2_2_, student0_.name as name2_2_2_, student0_.gender as gender3_2_2_, student0_.classroom_id as classroo4_2_2_, classroom1_.cid as cid1_0_0_, classroom1_.name as name2_0_0_, classroom1_.grade as grade3_0_0_, classroom1_.special_id as special4_0_0_, special2_.sid as sid1_1_1_, special2_.name as name2_1_1_, special2_.type as type3_1_1_ from t_student student0_ left outer join t_classroom classroom1_ on student0_.classroom_id=classroom1_.cid left outer join t_special special2_ on classroom1_.special_id=special2_.sid where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1686 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [UPGRADE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:12:28  [ main:1686 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [UPGRADE_NOWAIT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:12:28  [ main:1687 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [FORCE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:12:28  [ main:1687 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_READ]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? lock in share mode
+2017-01-15 21:12:28  [ main:1687 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_WRITE]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:12:28  [ main:1688 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=? for update
+2017-01-15 21:12:28  [ main:1688 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [OPTIMISTIC]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1688 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1694 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Student: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1694 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Student: select student0_.student_id as student1_2_0_, student0_.name as name2_2_0_, student0_.gender as gender3_2_0_, student0_.classroom_id as classroo4_2_0_ from t_student student0_ where student0_.student_id=?
+2017-01-15 21:12:28  [ main:1695 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [NONE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1695 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [READ]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1696 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [UPGRADE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:12:28  [ main:1696 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [UPGRADE_NOWAIT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:12:28  [ main:1696 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [FORCE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:12:28  [ main:1697 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_READ]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? lock in share mode
+2017-01-15 21:12:28  [ main:1697 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_WRITE]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:12:28  [ main:1697 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [PESSIMISTIC_FORCE_INCREMENT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=? for update
+2017-01-15 21:12:28  [ main:1697 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [OPTIMISTIC]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1698 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Special [OPTIMISTIC_FORCE_INCREMENT]: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1698 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Special: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1698 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Special: select special0_.sid as sid1_1_0_, special0_.name as name2_1_0_, special0_.type as type3_1_0_ from t_special special0_ where special0_.sid=?
+2017-01-15 21:12:28  [ main:1699 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [NONE]: select classroom0_.cid as cid1_0_1_, classroom0_.name as name2_0_1_, classroom0_.grade as grade3_0_1_, classroom0_.special_id as special4_0_1_, special1_.sid as sid1_1_0_, special1_.name as name2_1_0_, special1_.type as type3_1_0_ from t_classroom classroom0_ left outer join t_special special1_ on classroom0_.special_id=special1_.sid where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1699 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [READ]: select classroom0_.cid as cid1_0_1_, classroom0_.name as name2_0_1_, classroom0_.grade as grade3_0_1_, classroom0_.special_id as special4_0_1_, special1_.sid as sid1_1_0_, special1_.name as name2_1_0_, special1_.type as type3_1_0_ from t_classroom classroom0_ left outer join t_special special1_ on classroom0_.special_id=special1_.sid where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1700 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [UPGRADE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:12:28  [ main:1700 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [UPGRADE_NOWAIT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:12:28  [ main:1700 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [FORCE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:12:28  [ main:1701 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_READ]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? lock in share mode
+2017-01-15 21:12:28  [ main:1701 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_WRITE]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:12:28  [ main:1701 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [PESSIMISTIC_FORCE_INCREMENT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=? for update
+2017-01-15 21:12:28  [ main:1702 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [OPTIMISTIC]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1702 ] - [ DEBUG ]  Static select for entity cn.wxn.demo.entity.Classroom [OPTIMISTIC_FORCE_INCREMENT]: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1702 ] - [ DEBUG ]  Static select for action ACTION_MERGE on entity cn.wxn.demo.entity.Classroom: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1703 ] - [ DEBUG ]  Static select for action ACTION_REFRESH on entity cn.wxn.demo.entity.Classroom: select classroom0_.cid as cid1_0_0_, classroom0_.name as name2_0_0_, classroom0_.grade as grade3_0_0_, classroom0_.special_id as special4_0_0_ from t_classroom classroom0_ where classroom0_.cid=?
+2017-01-15 21:12:28  [ main:1708 ] - [ DEBUG ]  Static select for one-to-many cn.wxn.demo.entity.Classroom.students: select students0_.classroom_id as classroo4_0_1_, students0_.student_id as student1_2_1_, students0_.student_id as student1_2_0_, students0_.name as name2_2_0_, students0_.gender as gender3_2_0_, students0_.classroom_id as classroo4_2_0_ from t_student students0_ where students0_.classroom_id=?
+2017-01-15 21:12:28  [ main:1708 ] - [ DEBUG ]  Static select for one-to-many cn.wxn.demo.entity.Special.classrooms: select classrooms0_.special_id as special4_1_1_, classrooms0_.cid as cid1_0_1_, classrooms0_.cid as cid1_0_0_, classrooms0_.name as name2_0_0_, classrooms0_.grade as grade3_0_0_, classrooms0_.special_id as special4_0_0_ from t_classroom classrooms0_ where classrooms0_.special_id=?
+2017-01-15 21:12:28  [ main:1711 ] - [ DEBUG ]  Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3e96bacf
+2017-01-15 21:12:28  [ main:1714 ] - [ DEBUG ]  Registering SessionFactory: 48025780-6bbd-4ce4-b7cf-9f38503ecc90 (<unnamed>)
+2017-01-15 21:12:28  [ main:1714 ] - [ DEBUG ]  Not binding SessionFactory to JNDI, no JNDI name configured
+2017-01-15 21:12:28  [ main:1714 ] - [ DEBUG ]  Instantiated session factory
+2017-01-15 21:12:28  [ main:1718 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2017-01-15 21:12:28  [ main:1718 ] - [ INFO ]  HHH000102: Fetching database metadata
+2017-01-15 21:12:28  [ main:1720 ] - [ INFO ]  HHH000396: Updating schema
+2017-01-15 21:12:28  [ main:1720 ] - [ DEBUG ]  Processing hbm.xml files
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Process annotated classes
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Processing fk mappings (*ToOne and JoinedSubclass)
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Processing extends queue
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Processing collection mappings
+2017-01-15 21:12:28  [ main:1721 ] - [ DEBUG ]  Processing native query and ResultSetMapping mappings
+2017-01-15 21:12:28  [ main:1722 ] - [ DEBUG ]  Processing association property references
+2017-01-15 21:12:28  [ main:1722 ] - [ DEBUG ]  Creating tables' unique integer identifiers
+2017-01-15 21:12:28  [ main:1722 ] - [ DEBUG ]  Processing foreign key constraints
+2017-01-15 21:12:28  [ main:1722 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Special
+2017-01-15 21:12:28  [ main:1722 ] - [ DEBUG ]  Resolving reference to class: cn.wxn.demo.entity.Classroom
+2017-01-15 21:12:28  [ main:1725 ] - [ INFO ]  HHH000262: Table not found: t_classroom
+2017-01-15 21:12:28  [ main:1726 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1727 ] - [ INFO ]  HHH000262: Table not found: t_special
+2017-01-15 21:12:28  [ main:1727 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1727 ] - [ INFO ]  HHH000262: Table not found: t_student
+2017-01-15 21:12:28  [ main:1728 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1728 ] - [ INFO ]  HHH000262: Table not found: t_classroom
+2017-01-15 21:12:28  [ main:1729 ] - [ INFO ]  HHH000262: Table not found: t_special
+2017-01-15 21:12:28  [ main:1730 ] - [ INFO ]  HHH000262: Table not found: t_student
+2017-01-15 21:12:28  [ main:1730 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1731 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1731 ] - [ DEBUG ]  Setting dialect [org.hibernate.dialect.MySQLDialect]
+2017-01-15 21:12:28  [ main:1731 ] - [ DEBUG ]  create table t_classroom (cid integer not null auto_increment, name varchar(255), grade varchar(255), special_id integer, primary key (cid))
+2017-01-15 21:12:29  [ main:2012 ] - [ DEBUG ]  create table t_special (sid integer not null auto_increment, name varchar(255), type varchar(255), primary key (sid))
+2017-01-15 21:12:29  [ main:2325 ] - [ DEBUG ]  create table t_student (student_id integer not null auto_increment, name varchar(255), gender varchar(255), classroom_id integer, primary key (student_id))
+2017-01-15 21:12:29  [ main:2693 ] - [ DEBUG ]  alter table t_classroom add index FK1E5BA848D7F15D16 (special_id), add constraint FK1E5BA848D7F15D16 foreign key (special_id) references t_special (sid)
+2017-01-15 21:12:30  [ main:3611 ] - [ DEBUG ]  alter table t_student add index FK4B9075704217AFD6 (classroom_id), add constraint FK4B9075704217AFD6 foreign key (classroom_id) references t_classroom (cid)
+2017-01-15 21:12:31  [ main:4537 ] - [ INFO ]  HHH000232: Schema update complete
+2017-01-15 21:12:31  [ main:4538 ] - [ DEBUG ]  Checking 0 named HQL queries
+2017-01-15 21:12:31  [ main:4539 ] - [ DEBUG ]  Checking 0 named SQL queries
+2017-01-15 21:12:31  [ main:4544 ] - [ DEBUG ]  Statistics initialized [enabled=false]
+2017-01-15 21:12:31  [ main:4586 ] - [ DEBUG ]  begin
+2017-01-15 21:12:31  [ main:4587 ] - [ DEBUG ]  Obtaining JDBC connection
+2017-01-15 21:12:31  [ main:4587 ] - [ DEBUG ]  Obtained JDBC connection
+2017-01-15 21:12:31  [ main:4587 ] - [ DEBUG ]  initial autocommit status: false
+2017-01-15 21:12:31  [ main:4632 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4636 ] - [ DEBUG ]  
+    insert 
+    into
+        t_special
+        (name, type) 
+    values
+        (?, ?)
+2017-01-15 21:12:31  [ main:4655 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:12:31  [ main:4659 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4660 ] - [ DEBUG ]  
+    insert 
+    into
+        t_classroom
+        (name, grade, special_id) 
+    values
+        (?, ?, ?)
+2017-01-15 21:12:31  [ main:4662 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:12:31  [ main:4663 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4663 ] - [ DEBUG ]  
+    insert 
+    into
+        t_classroom
+        (name, grade, special_id) 
+    values
+        (?, ?, ?)
+2017-01-15 21:12:31  [ main:4664 ] - [ DEBUG ]  Natively generated identity: 2
+2017-01-15 21:12:31  [ main:4665 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4665 ] - [ DEBUG ]  
+    insert 
+    into
+        t_student
+        (name, gender, classroom_id) 
+    values
+        (?, ?, ?)
+2017-01-15 21:12:31  [ main:4816 ] - [ DEBUG ]  Natively generated identity: 1
+2017-01-15 21:12:31  [ main:4817 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4817 ] - [ DEBUG ]  
+    insert 
+    into
+        t_student
+        (name, gender, classroom_id) 
+    values
+        (?, ?, ?)
+2017-01-15 21:12:31  [ main:4819 ] - [ DEBUG ]  Natively generated identity: 2
+2017-01-15 21:12:31  [ main:4821 ] - [ DEBUG ]  Executing identity-insert immediately
+2017-01-15 21:12:31  [ main:4822 ] - [ DEBUG ]  
+    insert 
+    into
+        t_student
+        (name, gender, classroom_id) 
+    values
+        (?, ?, ?)
+2017-01-15 21:12:31  [ main:4905 ] - [ DEBUG ]  Natively generated identity: 3
+2017-01-15 21:12:31  [ main:4906 ] - [ DEBUG ]  committing
+2017-01-15 21:12:31  [ main:4908 ] - [ DEBUG ]  Processing flush-time cascades
+2017-01-15 21:12:31  [ main:4909 ] - [ DEBUG ]  Dirty checking collections
+2017-01-15 21:12:31  [ main:4913 ] - [ DEBUG ]  Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects
+2017-01-15 21:12:31  [ main:4913 ] - [ DEBUG ]  Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-01-15 21:12:31  [ main:4914 ] - [ DEBUG ]  Listing entities:
+2017-01-15 21:12:31  [ main:4915 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=刘备, classroom=cn.wxn.demo.entity.Classroom#1, id=2}
+2017-01-15 21:12:31  [ main:4916 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=张辽, classroom=cn.wxn.demo.entity.Classroom#2, id=3}
+2017-01-15 21:12:31  [ main:4918 ] - [ DEBUG ]  cn.wxn.demo.entity.Student{gender=男, name=张飞, classroom=cn.wxn.demo.entity.Classroom#1, id=1}
+2017-01-15 21:12:31  [ main:4918 ] - [ DEBUG ]  cn.wxn.demo.entity.Classroom{special=cn.wxn.demo.entity.Special#1, grade=一年级, name=电气工程及其自动化三班, students=null, cid=2}
+2017-01-15 21:12:31  [ main:4919 ] - [ DEBUG ]  cn.wxn.demo.entity.Classroom{special=cn.wxn.demo.entity.Special#1, grade=一年级, name=电气工程及其自动化一班, students=null, cid=1}
+2017-01-15 21:12:31  [ main:4919 ] - [ DEBUG ]  cn.wxn.demo.entity.Special{name=电气工程系, type=电气工程及其自动化, classrooms=null, sid=1}
+2017-01-15 21:12:31  [ main:4960 ] - [ DEBUG ]  committed JDBC Connection
+2017-01-15 21:12:31  [ main:4961 ] - [ DEBUG ]  Releasing JDBC connection
+2017-01-15 21:12:31  [ main:4961 ] - [ DEBUG ]  Released JDBC connection

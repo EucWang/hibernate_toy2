@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-1-15 16:58:06 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="cn.wxn.demo.entity">
+    <class name="Classroom" table="t_classroom">
+        <id name="cid" type="java.lang.Integer">
+            <column name="cid" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" />
+        </property>
+        <property name="grade" type="java.lang.String">
+            <column name="grade" />
+        </property>
+
+        <set name="students" table="t_student" inverse="true" lazy="true">
+            <key>
+                <column name="classroom_id" />
+            </key>
+            <one-to-many class="Student" />
+        </set>
+        
+        
+        <many-to-one name="special" class="Special" fetch="join">
+            <column name="special_id" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>
