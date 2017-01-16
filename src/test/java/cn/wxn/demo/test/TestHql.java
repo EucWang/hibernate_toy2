@@ -174,7 +174,7 @@ public class TestHql {
 	/**
 	 * 连接查询3张表.
 	 * 学生姓名, 班级名称, 班级年级, 专业名称
-	 * 创建一个新的DTO对象
+	 * 创建一个新的DTO对象, 在hql中需要使用类全名, 这里对应的需要添加响应的构造函数,同时必须有默认的构造函数
 	 * DTO对象中的各个属性必须和查询的属性保持一致性
 	 */
 	@SuppressWarnings("unchecked")
@@ -191,7 +191,37 @@ public class TestHql {
 		for(StudentDTO s : studentDTOs){
 			System.out.println(s);
 		}
-		
+	}
+	
+	/**
+	 * 专业中不同性别的人数
+	 */
+	@SuppressWarnings("unchecked")
+	@org.junit.Test
+	public void test10(){
 		
 	}
+	
+	
+	/**
+	 * 统计人数大于5人的班
+	 * having 为group by设置条件的
+	 */
+	@SuppressWarnings("unchecked")
+	@org.junit.Test
+	public void test11(){
+		
+	}
+	
+	/**
+	 * 统计人数大于5人的班, 分男女来分组
+	 * having 为group by设置条件的
+	 */
+	@SuppressWarnings("unchecked")
+	@org.junit.Test
+	public void test12(){
+		
+	}
+	
+	
 }
