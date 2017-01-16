@@ -235,5 +235,54 @@ public class Test {
 	String[] first_name = new String[]{"赵","钱","孙","李","周","吴","郑","王"};
 	String[] last_name = new String[]{"老大","老二","老三","老四","老五","老六","老七","老八","老九","老末"};
 	
+	/**
+	 * 加入2个没有班级的学生
+	 */
+	@org.junit.Test
+	public void testAdd2(){
+		try {
+			session.beginTransaction();
+			
+			
+			for(int i = 0; i<2;i++){
+				int a = (int)(Math.random()*first_name.length);
+				int b = (int)(Math.random()*last_name.length);
+//				int c = (int)(Math.random()*38) + 1;
+				
+				String name = first_name[a] + last_name[b];
+				String gender = Math.random() > 0.5 ? "男" : "女";
+//				Classroom classroom = (Classroom)session.load(Classroom.class, c);
+				
+				Student student = new Student(name, gender);
+				System.out.println(student.toString());
+				session.save(student);
+			}
+			
+			session.getTransaction().commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+			if(session != null)session.getTransaction().rollback();
+		}
+	}
 	
+	/**
+	 * 加入2个没有学生的班级
+	 */
+	@org.junit.Test
+	public void testAdd3(){
+		try {
+			session.beginTransaction();
+			
+			Classroom classroom39 = new Classroom("选修课班A班", 2012, new Special(9));
+			Classroom classroom40 = new Classroom("选修课班B班", 2012, new Special(9));
+			
+			session.save(classroom39);
+			session.save(classroom40);
+			
+			session.getTransaction().commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+			if(session != null)session.getTransaction().rollback();
+		}
+	}
 }

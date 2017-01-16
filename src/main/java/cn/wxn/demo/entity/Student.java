@@ -41,6 +41,12 @@ public class Student {
 		this.gender = gender;
 		this.classroom = classroom;
 	}
+	
+	public Student(String name, String gender) {
+		super();
+		this.name = name;
+		this.gender = gender;
+	}
 
 	public Student(Integer id) {
 		super();
