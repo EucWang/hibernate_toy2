@@ -32,9 +32,5 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 		</dependency>
-		
-		
-
-
 	</dependencies>
 </project>
