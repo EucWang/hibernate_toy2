@@ -3,21 +3,26 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2017-1-15 16:58:06 by Hibernate Tools 3.5.0.Final -->
 <hibernate-mapping package="cn.wxn.demo.entity">
-    <class name="Student" table="t_student">
+    
+    <class name="Student" table="u_student">
+    
         <id name="id" type="java.lang.Integer">
-            <column name="student_id" />
+            <column name="id" />
             <generator class="native" />
         </id>
+    
         <property name="name" type="java.lang.String">
             <column name="name" />
         </property>
+    
         <property name="gender" type="java.lang.String">
             <column name="gender" />
         </property>
         
-        
         <many-to-one name="classroom" class="Classroom" fetch="join">
             <column name="classroom_id" />
         </many-to-one>
+    
     </class>
+
 </hibernate-mapping>

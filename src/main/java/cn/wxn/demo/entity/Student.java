@@ -1,6 +1,7 @@
 package cn.wxn.demo.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -26,7 +27,7 @@ public class Student {
 		return "Student [id=" + id + ", name=" + name + ", gender=" + gender + ", classroom=" + classroom + "]";
 	}
 
-	@ManyToOne
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name = "classroom_id")
 	private Classroom classroom;
 

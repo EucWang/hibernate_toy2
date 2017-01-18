@@ -3,18 +3,17 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2017-1-15 16:58:06 by Hibernate Tools 3.5.0.Final -->
 <hibernate-mapping package="cn.wxn.demo.entity">
-    <class name="Special" table="t_special">
+    <class name="Special" table="u_special">
         <id name="sid" type="java.lang.Integer">
             <column name="sid" />
             <generator class="native" />
         </id>
         <property name="name" type="java.lang.String">
-            <column name="name" />
+            <column name="s_name" />
         </property>
         <property name="type" type="java.lang.String">
             <column name="type" />
         </property>
-        
         
         <set name="classrooms" table="t_classroom" inverse="true" lazy="true">
             <key>

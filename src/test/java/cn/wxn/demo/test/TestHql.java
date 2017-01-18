@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.hql.internal.ast.HqlASTFactory;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 import org.junit.After;
@@ -35,6 +36,7 @@ public class TestHql {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test() {
 		List<Special> specials = session.createQuery("from Special").list();
@@ -43,6 +45,7 @@ public class TestHql {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test15() {
 		List<Student> students = session.createQuery("from Student s where s.name like ?").setParameter(0, "%老八%")
@@ -52,6 +55,7 @@ public class TestHql {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test16() {
 		List<Student> students = session.createQuery("from Student s where s.name like ?").setParameter(0, "%老八%")
@@ -62,6 +66,7 @@ public class TestHql {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test2() {
 		List<Student> students = session.createQuery("from Student s where s.name like :name and gender = :gender ")
@@ -84,6 +89,7 @@ public class TestHql {
 	 * 查询男生多少人, 女生多少人
 	 * group by 
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test3(){
 		List<Object[]> counts = session.createQuery("select stu.gender, count(*) from Student stu group by stu.gender")
@@ -99,6 +105,7 @@ public class TestHql {
 	 * 其实hibernate生成的最后的sql语句还是使用的 left out join来做的查询,
 	 * 但是在hql中就可以是简单的 通过where属性的某个值来查询
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test4(){ 
 		List<Student> students = session.createQuery("select stu from Student stu where stu.classroom.id=?")
@@ -113,6 +120,7 @@ public class TestHql {
 	 * 查询1班和2班所有姓张的学生
 	 * 可以使用in 来基于列表的查询, 这里必须使用别名来查询, in语句必须放置到where语句最后
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test5(){ 
 		List<Student> students = session.createQuery("select stu from Student stu where stu.name like :name and stu.classroom.cid in (:ids)")
@@ -130,6 +138,7 @@ public class TestHql {
 	 * 
 	 * 分页查询
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test6(){ 
 		List<Student> students = session.createQuery("select stu from Student stu where stu.classroom.cid in (:ids)")
@@ -149,6 +158,7 @@ public class TestHql {
 	 * = null 
 	 * 这两种形式都可以使用
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test7(){ 
 		List<Student> students = session.createQuery("select stu from Student stu  where stu.classroom.cid = null")
@@ -162,6 +172,7 @@ public class TestHql {
 	 * 连接查询,所有的班级名称,以及班级中的学生人数,
 	 * 即时班级中学生人数为0点班级也需要显示
 	 */
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test8(){ 
 		List<Object[]> objsList= session.createQuery("select cla.name, count(stu.id) from Student stu right join stu.classroom cla group by cla.cid")
@@ -195,33 +206,87 @@ public class TestHql {
 	
 	/**
 	 * 专业中不同性别的人数
+	 * 
+	 *  select sss.sid, sss.s_name, sss.type, s.gender, count(s.id) stu_num
+		from u_student s
+		right join 
+		(
+			select c.cid, c.name, c.grade, ss.sid, ss.s_name,ss.type from u_classroom c
+			left join u_special ss
+			on (ss.sid = c.special_id) 
+		) sss
+		on (s.classroom_id = sss.cid)
+		GROUP BY sss.sid, s.gender
+		having s.gender is not null;
+	 * 
 	 */
 	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test10(){
-		
+		String hql = "select ss.id, ss.name, s.gender, count(s.id) from Student s right join s.classroom.special ss group by ss.id, s.gender having s.gender is not null";
+		List<Object[]> objsList = session.createQuery(hql).list();
+		for(Object[] objects : objsList) {
+			System.out.println(objects[0] + ",\t" + objects[1] + ",\t" + objects[2] + ",\t" + objects[3]);
+		}
 	}
 	
 	
 	/**
 	 * 统计人数大于5人的班
 	 * having 为group by设置条件的
+	 * 
+	 * sql:
+	 *      select c.name, c.grade , count(s.id) stu_num
+			from u_classroom c
+			left join u_student s
+			on (s.classroom_id = c.cid)
+			group by c.cid
+			having stu_num > 5;
+	 * 
 	 */
 	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test11(){
 		
+		String hql = "select c.grade, c.name, count(s.id) from Student s right join s.classroom c group by c.cid having count(s.id) > 5";
+		List<Object[]> objsList = session.createQuery(hql).list();
+		for(Object[] objects : objsList) {
+			System.out.println(objects[0] + ",\t" + objects[1] + ",\t" + objects[2] );
+		}
 	}
 	
 	/**
 	 * 统计人数大于5人的班, 分男女来分组
-	 * having 为group by设置条件的
+	 * having 为group by设置条件的 sql如下: 
+	 * 
+	 *     select c.cid, c.name, c.stu_num, s.gender, count(s.id) gender_num 
+			from (
+				select c.cid, c.grade, c.name, count(c.cid) as stu_num
+				from u_classroom c 
+				join  u_student s
+				on s.classroom_id = c.cid
+				group by c.cid
+				having count(*)>4
+			) c 
+			left join u_student s
+			on s.classroom_id = c.cid
+			group by c.cid,s.gender ;
+	 *		
+	 * ????问题
+	 * 使用hql不能创造出如上累死的sql语句
+	 * ????问题
+	 * @TODO
 	 */
 	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void test12(){
-		
+		String hql = "select cla.name, s.gender, count(s.id) "
+				+ "from Student s "
+				+ "right join  s.classroom cla "
+				+ "group by cla.cid, s.gender ";
+		List<Object[]> objsList =session.createQuery(hql).list();
+		for(Object[] objects : objsList) {
+			System.out.println(objects[0] + ",\t" + objects[1] + ",\t" + objects[2]);
+		}
 	}
-	
-	
 }

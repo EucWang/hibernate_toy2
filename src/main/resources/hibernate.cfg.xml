@@ -16,12 +16,10 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
-        
-        <!-- 
-        <mapping resource="cn/wxn/demo/entity/Classroom.hbm.xml" />
+         
+        <!-- <mapping resource="cn/wxn/demo/entity/Classroom.hbm.xml" />
         <mapping resource="cn/wxn/demo/entity/Special.hbm.xml" />
-        <mapping resource="cn/wxn/demo/entity/Student.hbm.xml" />
-         -->
+        <mapping resource="cn/wxn/demo/entity/Student.hbm.xml" /> -->
          
          <mapping class="cn.wxn.demo.entity.Classroom"/>
          <mapping class="cn.wxn.demo.entity.Special"/>
