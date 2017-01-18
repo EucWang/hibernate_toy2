@@ -129,13 +129,41 @@ public class TestFetch {
 	}
 
 	/**
-	 * 针对 一的一方的抓取
+	 * 多对一
+	 * 针对的多方的抓取
 	 * 
-	 * load 对象Classroom 打印
+	 * 先用load() 加载Classroom 对象
+	 * 然后通过Classroom对象获取这个班级的学生列表,打印这个班级所有学生姓名, 
+	 * 这时候会发出2条sql,第一条加载classroom, 第二条关联查询获取班级所有学生
+	 * 
+	 * 同样可以通过 设置 "fetch='join'" 在<set>元素中设置这个属性 让其可以只发出一条语句就获取班级以及其学生信息
+	 *  
 	 */
 	@org.junit.Test
 	public void test5() {
 
 	}
 
+	/**
+	 * 取班级集合,通过hql查询
+	 * 然后遍历班级集合, 然后再通过班级获取所有学生姓名,
+	 * 上面设置的 fetch='join' 设置对hql查询无效
+	 * 所以这里会发出大量的sql查询数据库
+	 * 
+	 * 子查询
+	 * 解决方案:
+	 *  1.  设置 <set> 的batch-size=15 , 来批量加载
+	 *  2.  设置<set> fetch='sub-select' 会完成根据查询出来的班级进行一次关联学生的查询
+	 *      对于注解模式, 在集合属性上设置 @Fetch(FetchMode.SUBSELECT),例如
+	 *      
+	 *      @OneToMany(mappedBy="classroom")
+	 *      @LazyCollection(LazyCollectionOption.EXTRA)
+	 *      @Fetch(FetchMode.SUBSELET)
+	 *      private Set<Student> students;
+	 *      
+	 */
+	@org.junit.Test
+	public void test6() {
+
+	}
 }
